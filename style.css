@@ -128,12 +128,14 @@ h1 {
   .left {
     order: 1;
     width: auto;
+    margin-top: -5rem;
   }
 
   .right {
     width: auto;
     font-size: 2rem;
     width: auto;
+    margin-top: -3rem;
   }
 
   .message {
@@ -176,7 +178,7 @@ h1 {
     font-size: 1.4rem;
     position: static;
     text-align: center;
-    margin-top: -2rem;
+    margin-top: -4rem;
   }
 
 }
