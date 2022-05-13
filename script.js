@@ -42,8 +42,9 @@ document.querySelector('.check').addEventListener('click', function () {
     else if (guess !== secretNumber) {
       if (score > 1) {
         document.querySelector('.message').textContent =
-          guess > secretNumber ? ' 🚀 Too high!' : ' 🤿 Too low!';
+          guess > secretNumber ? ' 🚀 Too high!' : ' 🐳 Too low!';
         score--;
+          guess > secretNumber ? document.querySelector('.message').style.color = 'red' : document.querySelector('.message').style.color = '#00BCF2';
         document.querySelector('.score').textContent = score;
       } else {
         document.querySelector('.message').textContent =
