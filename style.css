@@ -127,11 +127,13 @@ h1 {
 
   .left {
     order: 1;
+    width: auto;
   }
 
   .right {
     width: auto;
     font-size: 2rem;
+    width: auto;
   }
 
   .message {
